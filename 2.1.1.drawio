@@ -79,7 +79,7 @@
         <mxCell id="UPl1scvbvViI10Mi023q-78" value="1:create(controller)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="350" y="346" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UPl1scvbvViI10Mi023q-79" value="2.1:the Request=gets&lt;div&gt;(car_id,car_position,car_state,&lt;/div&gt;&lt;div&gt;queueNum,request_time)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
+        <mxCell id="UPl1scvbvViI10Mi023q-79" value="2.1:the Request=gets&lt;div&gt;(car_id,car_position,car_state,&lt;/div&gt;&lt;div&gt;queue_Num,request_time)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="658" y="268" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UPl1scvbvViI10Mi023q-80" value="2:request=E_chargingRequest&lt;div&gt;(car_Id,Request_Amount, Request_Mode)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;labelBackgroundColor=none;" parent="1" vertex="1">
