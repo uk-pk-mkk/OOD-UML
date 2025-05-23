@@ -1,9 +1,78 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.8">
   <diagram name="第 1 页" id="um3wklieatX61Hs3mbdf">
-    <mxGraphModel>
+    <mxGraphModel dx="541" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pgJC16VL0z-O4lGqIxA9-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;rounded=0;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pgJC16VL0z-O4lGqIxA9-2" value="controller:&lt;br&gt;carChargeController" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="214.37" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pgJC16VL0z-O4lGqIxA9-3" value="" style="endArrow=classic;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endFill=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="pgJC16VL0z-O4lGqIxA9-1" target="pgJC16VL0z-O4lGqIxA9-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="98" as="sourcePoint" />
+            <mxPoint x="200" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pgJC16VL0z-O4lGqIxA9-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="pgJC16VL0z-O4lGqIxA9-5" target="pgJC16VL0z-O4lGqIxA9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pgJC16VL0z-O4lGqIxA9-5" value=":&amp;lt;&amp;lt;UI&amp;gt;&amp;gt;&lt;div&gt;charge&lt;/div&gt;&lt;div&gt;Window&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="214.37" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pgJC16VL0z-O4lGqIxA9-6" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="286" y="110" as="sourcePoint" />
+            <mxPoint x="286" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pgJC16VL0z-O4lGqIxA9-8" value=":&amp;lt;&amp;lt;UI&amp;gt;&amp;gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;detailedList&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Window&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="214.37" y="298" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pgJC16VL0z-O4lGqIxA9-9" value="2:create(theDetailedList,controller)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="277" y="250" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pgJC16VL0z-O4lGqIxA9-10" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pgJC16VL0z-O4lGqIxA9-2" target="pgJC16VL0z-O4lGqIxA9-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="274.37" y="280" as="sourcePoint" />
+            <mxPoint x="274.37" y="300.71067811865476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pgJC16VL0z-O4lGqIxA9-13" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="287" y="240" as="sourcePoint" />
+            <mxPoint x="287" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pgJC16VL0z-O4lGqIxA9-16" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;theDetailedList:&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;DetailedList&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="214.37" y="426" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pgJC16VL0z-O4lGqIxA9-17" value="2.2:charge_state=getChargeState()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="277" y="373" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pgJC16VL0z-O4lGqIxA9-18" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="pgJC16VL0z-O4lGqIxA9-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="274" y="358" as="sourcePoint" />
+            <mxPoint x="274.37" y="428.71067811865476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pgJC16VL0z-O4lGqIxA9-19" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="287" y="368" as="sourcePoint" />
+            <mxPoint x="287" y="418" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pgJC16VL0z-O4lGqIxA9-20" value="1:detailedlist=Query_Charging_State(car_id)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="282" y="118" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pgJC16VL0z-O4lGqIxA9-21" value="controller:&lt;br&gt;carChargeController" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="560" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pgJC16VL0z-O4lGqIxA9-22" value="controller:&lt;br&gt;carChargeController" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="560" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
