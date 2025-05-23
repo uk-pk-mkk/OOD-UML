@@ -58,8 +58,8 @@
             <mxPoint x="234" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_mAh5e5J7vd-5eLsBbyQ-16" value="1.3:theCar=insert(id,mode)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="473.63" y="230" width="180" height="30" as="geometry" />
+        <mxCell id="_mAh5e5J7vd-5eLsBbyQ-16" value="1.3:theCar=insert(id,car)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="488.63" y="230" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_mAh5e5J7vd-5eLsBbyQ-17" value="1.1:theCar=get(id,Car)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="493.63" y="180" width="140" height="30" as="geometry" />
