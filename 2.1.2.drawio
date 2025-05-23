@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.8">
+  <diagram name="Page-1" id="3WEG0BcmEaPWdOdoA439">
+    <mxGraphModel dx="946" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UPl1scvbvViI10Mi023q-47" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;rounded=0;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="86" y="143" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UPl1scvbvViI10Mi023q-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;startFill=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" source="UPl1scvbvViI10Mi023q-49" target="UPl1scvbvViI10Mi023q-67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UPl1scvbvViI10Mi023q-49" value=":&amp;lt;&amp;lt;UI&amp;gt;&amp;gt;&lt;div&gt;chargeRequest&lt;div&gt;Window&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="180.37" y="308" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UPl1scvbvViI10Mi023q-50" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="166" y="98" width="148.75" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="UPl1scvbvViI10Mi023q-51" value="" style="endArrow=classic;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endFill=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" source="UPl1scvbvViI10Mi023q-47" target="UPl1scvbvViI10Mi023q-50" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="56" y="208" as="sourcePoint" />
+            <mxPoint x="126.71067811865476" y="158" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UPl1scvbvViI10Mi023q-52" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="236" y="128" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UPl1scvbvViI10Mi023q-53" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="236" y="158" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UPl1scvbvViI10Mi023q-54" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="236" y="187" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UPl1scvbvViI10Mi023q-55" value="提交充电申请" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="196" y="98" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UPl1scvbvViI10Mi023q-56" value="车辆id:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="171" y="122" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UPl1scvbvViI10Mi023q-57" value="充电量:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="171" y="153" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UPl1scvbvViI10Mi023q-58" value="充电模式:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="166" y="182" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UPl1scvbvViI10Mi023q-59" value="确定" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="224.13" y="218" width="32.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UPl1scvbvViI10Mi023q-63" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" source="UPl1scvbvViI10Mi023q-49" target="UPl1scvbvViI10Mi023q-50" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="46" y="588" as="sourcePoint" />
+            <mxPoint x="96" y="538" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UPl1scvbvViI10Mi023q-65" value="actionPerformed&lt;div&gt;(actionEvent)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="126" y="258" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UPl1scvbvViI10Mi023q-67" value=":&amp;lt;&amp;lt;UI&amp;gt;&amp;gt;&lt;div&gt;showRequest&lt;div&gt;Window&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="180.37" y="428" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UPl1scvbvViI10Mi023q-69" value="3:create(controller)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="116" y="376" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UPl1scvbvViI10Mi023q-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" source="UPl1scvbvViI10Mi023q-71" target="UPl1scvbvViI10Mi023q-72" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UPl1scvbvViI10Mi023q-71" value="controller:&lt;br&gt;WaitingController" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="546" y="308" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UPl1scvbvViI10Mi023q-72" value=":DBFacade" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="838" y="308" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UPl1scvbvViI10Mi023q-73" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" source="UPl1scvbvViI10Mi023q-71" target="UPl1scvbvViI10Mi023q-49" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="556" y="618" as="sourcePoint" />
+            <mxPoint x="606" y="568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UPl1scvbvViI10Mi023q-78" value="1:create(controller)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="350" y="346" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UPl1scvbvViI10Mi023q-79" value="2.1:the Request=gets&lt;div&gt;(car_id,car_position,car_state,&lt;/div&gt;&lt;div&gt;queueNum,requesttime)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="658" y="268" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UPl1scvbvViI10Mi023q-80" value="2:request=E_chargingRequest&lt;div&gt;(car_Id,Request_Amount, Request_Mode)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#393C56;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="300.37" y="288" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TaGtF2507p_RmKuC2LY5-1" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="348" as="sourcePoint" />
+            <mxPoint x="460" y="348" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaGtF2507p_RmKuC2LY5-2" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="309" y="328" as="sourcePoint" />
+            <mxPoint x="536" y="328" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaGtF2507p_RmKuC2LY5-4" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="676" y="328" as="sourcePoint" />
+            <mxPoint x="826" y="328" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaGtF2507p_RmKuC2LY5-5" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="376" as="sourcePoint" />
+            <mxPoint x="230" y="418" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TaGtF2507p_RmKuC2LY5-7" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="258" as="sourcePoint" />
+            <mxPoint x="230" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
